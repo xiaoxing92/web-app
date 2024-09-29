@@ -1,0 +1,21 @@
+
+  .app-column-title{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .app-column-container {
+    display: flex;
+    gap: 2px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+  }
+  
+  .vertical .app-column-container {
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+  }
+  
